@@ -3,7 +3,7 @@
   <RegistrationInfo>
     <Date>2013-09-13T07:55:17.5416169</Date>
     <Author>FRENZYTHEORY\Administrator</Author>
-    <Description>no description</Description>
+    <Description>TS_BLOCK stop bruteforce login attempts</Description>
   </RegistrationInfo>
   <Triggers>
     <EventTrigger>
@@ -28,11 +28,7 @@
     <StopIfGoingOnBatteries>true</StopIfGoingOnBatteries>
     <AllowHardTerminate>true</AllowHardTerminate>
     <StartWhenAvailable>false</StartWhenAvailable>
-    <RunOnlyIfNetworkAvailable>true</RunOnlyIfNetworkAvailable>
-    <NetworkSettings>
-      <Name>Network  2</Name>
-      <Id>{4AEACA38-1347-4E1C-956A-7FDEF478D348}</Id>
-    </NetworkSettings>
+    <RunOnlyIfNetworkAvailable>false</RunOnlyIfNetworkAvailable>
     <IdleSettings>
       <StopOnIdleEnd>true</StopOnIdleEnd>
       <RestartOnIdle>false</RestartOnIdle>
